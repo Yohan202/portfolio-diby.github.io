@@ -41,7 +41,7 @@ const AboutSection = () => {
               Mon parcours m'a permis de développer des compétences solides en administration systèmes et réseaux, virtualisation, automatisation et sécurité des infrastructures IT. Je suis curieux, rigoureux et toujours à la recherche de nouveaux défis techniques.
             </p>
             <p>
-              En dehors de l'informatique, je m'intéresse aux arts martiaux, à la musique et aux jeux vidéo.
+              En dehors de l'informatique, je m'intéresse au football, aux arts martiaux, au cinéma.
             </p>
           </div>
         </motion.div>

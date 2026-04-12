@@ -2,22 +2,7 @@ import { motion } from "framer-motion";
 import { ExternalLink, Server } from "lucide-react";
 
 const projects = [
-  {
-    title: "EasyVM",
-    description: "Création automatisée de machines virtuelles en quelques clics via une interface web. Orchestration avec Docker, automatisation Ansible et hébergement sur Azure.",
-    tech: ["Ansible", "Docker", "Apache", "MariaDB", "PHP", "Azure"],
-    color: "174 72% 56%",
-    period: "Déc. 2023 — Jan. 2024",
-    location: "ESIEA Ivry-sur-Seine",
-  },
-  {
-    title: "DIV — Automatisation VLAN",
-    description: "Automatisation des configurations de VLANs pour différents types d'utilisateurs, avec gestion dynamique de l'adressage IP sur un réseau hébergé localement.",
-    tech: ["Ansible", "PHPMyAdmin", "Linux", "Cisco Catalyst", "HPE Comware 7"],
-    color: "190 80% 45%",
-    period: "Avr. — Juil. 2023",
-    location: "ESIEA Ivry-sur-Seine",
-  },
+
   {
     title: "Mise en place d'un pare-feu pfSense",
     description: "Installation et configuration d'un pare-feu pfSense pour sécuriser un réseau local : règles de filtrage, NAT, VPN et supervision du trafic.",
@@ -49,6 +34,22 @@ const projects = [
     color: "210 65% 50%",
     period: "",
     location: "",
+  },
+  {
+    title: "EasyVM",
+    description: "Création automatisée de machines virtuelles en quelques clics via une interface web. Orchestration avec Docker, automatisation Ansible et hébergement sur Azure.",
+    tech: ["Ansible", "Docker", "Apache", "MariaDB", "PHP", "Azure"],
+    color: "174 72% 56%",
+    period: "Déc. 2023 — Jan. 2024",
+    location: "ESIEA Ivry-sur-Seine",
+  },
+  {
+    title: "DIV — Automatisation VLAN",
+    description: "Automatisation des configurations de VLANs pour différents types d'utilisateurs, avec gestion dynamique de l'adressage IP sur un réseau hébergé localement.",
+    tech: ["Ansible", "PHPMyAdmin", "Linux", "CCNA", "\n"],
+    color: "190 80% 45%",
+    period: "Avr. — Juil. 2023",
+    location: "ESIEA Ivry-sur-Seine",
   },
 ];
 

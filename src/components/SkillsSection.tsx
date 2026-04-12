@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 const skills = [
   { category: "Réseaux", items: ["Routage Inter-VLAN", "STP / HSRP / VTP", "EtherChannel", "Switch Cisco Catalyst / HPE Comware"] },
   { category: "Systèmes", items: ["Administration Windows Server", "Administration Linux (Debian)", "GLPI (ITSM)"] },
-  { category: "Web & BDD", items: ["Apache / Tomcat", "PHP / MariaDB / MySQL", "PHPMyAdmin", "Microsoft Azure"] },
-  { category: "Virtualisation", items: ["VMware ESXi", "VirtualBox", "Docker / Conteneurisation", "Proxmox"] },
-  { category: "Automatisation & Scripting", items: ["Ansible", "Python", "Bash", "PowerShell"] },
+  { category: "Certif. Cisco CCNA", items: ["Introduction auréseaux", "Commutations & Routages"] },
+  { category: "Virtualisation & Cloud", items: ["VMware Workstation & ESXi", "Microsoft Azure", "Docker", "Proxmox"] },
+  { category: "Automatisation & Scripting", items: ["Ansible", "Python", "Bash"] },
 ];
 
 const SkillsSection = () => {
@@ -39,7 +39,7 @@ const SkillsSection = () => {
               </h3>
               <ul className="space-y-3">
                 {group.items.map((item) => (
-                  <li key={item} className="flex items-center gap-3 text-secondary-foreground text-sm">
+                  <li key={item} className="flex items-center gap-3 text-secondary-foreground text-sm text-center">
                     <span className="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0" />
                     {item}
                   </li>
